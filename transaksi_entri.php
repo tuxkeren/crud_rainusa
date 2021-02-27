@@ -34,5 +34,6 @@
 			</tr>
 		</table>
 	</form>
+	<a href="transaksi_tampil.php">Selesai</a>
 </body>
 </html>

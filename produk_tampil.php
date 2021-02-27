@@ -33,6 +33,9 @@
 		<?php } ?>
 
 	</table>
+	<br/>
+	<hr>
+	<a href="halaman_admin.php">Kembali ke Dashboard</a>
 </body>
 </html>
 

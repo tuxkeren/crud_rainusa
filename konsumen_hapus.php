@@ -1,8 +1,8 @@
 <?php
 include "koneksi.php";
 
-$kode = $_GET['kode'];
-$query = "DELETE FROM produk WHERE kode = $kode";
+$id = $_GET['id'];
+$query = "DELETE FROM konsumen WHERE id = $id";
 $hasil = mysqli_query($koneksi, $query);
 
 if($hasil){
@@ -10,4 +10,4 @@ if($hasil){
 }
 
 mysqli_close($koneksi);
-header("Location:produk_tampil.php");
+header("Location:konsumen_tampil.php");

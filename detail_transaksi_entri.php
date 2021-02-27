@@ -55,7 +55,6 @@ $hasil  = mysqli_query($koneksi,$query);
 					}
 				?>
 			</datalist>
-			<!-- <td>Harga:<input type="text" name="harga"></td> -->
 			<td>Qty:<input type="text" name="jumlah"></td>
 			<td><input type="hidden" name="id_h" value="<?php echo $id_h; ?>"></td>
 			<td><button type="submit" name="proses">Proses</button></td>

@@ -1,6 +1,7 @@
 <?php
 include "koneksi.php";
 
+$kode 		= $_POST["kode"];
 $merk  		= $_POST["merk"];
 $jenis 		= $_POST["jenis"];
 $harga 		= $_POST["harga"];

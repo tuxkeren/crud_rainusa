@@ -39,10 +39,6 @@ $hasil = mysqli_query($koneksi, $query);
 					<td><input type="text" name="harga" value="<?php echo $data['harga'];?>"></td>
 				</tr>
 				<tr>
-					<td>Gambar Produk</td><td>:</td>
-					<td><input type="file" name="gambar"></td>
-				</tr>
-				<tr>
 				<?php } ?>
 					<td></td><td>&nbsp;</td>
 					<td align="right"><input type="submit" name="simpan"></td>
