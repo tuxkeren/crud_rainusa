@@ -1,8 +1,8 @@
 <?php
 # beberapa variabel kubutuhan koneksi ke database
 $hostname = "localhost";
-$username = "root";
-$password = "";
+$username = "atha";
+$password = "atha123";
 $database = "faktur";
 $koneksi = mysqli_connect($hostname,$username,$password);
 
